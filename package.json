@@ -1,0 +1,26 @@
+{
+  "name": "chat-node",
+  "version": "1.0.0",
+  "description": "Chat generado con Node y SOCKET IO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chicotemaa/chat-node.git"
+  },
+  "author": "Matias Chicote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chicotemaa/chat-node/issues"
+  },
+  "homepage": "https://github.com/chicotemaa/chat-node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.1"
+  }
+}
